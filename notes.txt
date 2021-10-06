@@ -1,0 +1,24 @@
+Make sure to include the defer attribute to the javascript tag in the html doc, so that it looks at the js last 
+in js (To try out in the console) ->
+
+Retrieve items either with getElementByID, getElementByClassName, or document.querySelector (or document.querySelectorAll)
+
+let image = document.getElementById('kitten')
+console.log ('get image by id', image)
+-- retrieving image by html ID
+img.src = 'http://www.imagesite.com/image.jpg' <-- (This is whatever the path for the image is)
+
+let image = document.getElementByClassName
+
+
+let allImages
+with query selector = you put a . in front of the selector if it's a class, and a # if it's an ID
+
+image.classList.add('new-class')
+
+let root = document.getElementById('root')
+console.log(root)
+
+letNewElement = document.createElement('hi')
+newElement.innerText = 'Hello world!'
+root.appendChild(newElement)  
